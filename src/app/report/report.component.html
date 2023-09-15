@@ -1,0 +1,9 @@
+
+<div>
+    <form #search="ngForm" (ngSubmit)="onSubmit()" novalidate>
+        Company: <input type="text" name="company" [(ngModel)]="company" />
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<div id="report-container"></div>
